@@ -1,0 +1,133 @@
+.continar, .welcome_message{
+    padding: 10px;
+    width: 1200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 50px;
+    font-family: 'Orbitron', sans-serif;
+   }
+   .continar_form{
+    padding: 10px;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 50px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+   }
+   .welcome_message{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 0px 10px;
+   }
+   .welcome_message a{
+    text-decoration: none;
+    color: rgb(42, 57, 14);
+   }
+   .warning_message{
+    padding: 20px;
+    width: 500px;
+    height: 130px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(233, 12, 12, 0.19);
+    margin-top: 50px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+   }
+   .warning{
+    font-weight: bold;
+    color: red;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+   }
+    
+   table {
+     border-collapse: collapse;
+     width: 100%;
+    }
+    th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #DDD;
+    }
+    .title{
+        color: #588157;
+    }
+    td a {
+        text-decoration: none;
+        display: flex;
+    }
+    .edit{
+        color: #588157;
+        
+    }
+    .delete{
+        color: red;
+    }
+    
+    .buttons{
+        display: flex;
+    }
+    button{
+        margin-right: 10px;
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    .submit{
+        width: 100%;
+        background-color: #588157;
+        font-weight: bold;
+        font-size: 18px;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .save{
+        width: 30%;
+        background-color: #588157;
+        font-weight: bold;
+        font-size: 18px;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 8px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .cancel{
+        width: 30%;
+        background-color: #588157;
+        font-weight: bold;
+        font-size: 18px;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 8px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        background-color: red;
+    }
+    .cancel a{
+        color: white;
+        
+    }
+    input {
+        width: 100%;
+        padding: 10px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
